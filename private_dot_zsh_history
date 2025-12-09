@@ -1,0 +1,521 @@
+: 1763656354:0;vi
+: 1763656354:0;vim
+: 1763656354:0;which nvim
+: 1763656354:0;bash
+: 1763656354:0;sudo apt install neovim
+: 1763656354:0;echo $0
+: 1763656354:0;echo $$
+: 1763656354:0;ps -p $$
+: 1763656354:0;ssh kalipi
+: 1763656354:0;sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/kitty
+: 1763656354:0;sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/kitty 70
+: 1763656354:0;sudo update-alternatives --config x-terminal-emulator
+: 1763656354:0;which kitty
+: 1763656354:0;gsettings set org.gnome.desktop.default-applications.terminal exec '/usr/bin/kitty\
+'
+: 1763656354:0;gsettings set org.gnome.desktop.default-applications.terminal exec '/usr/bin/kitty'
+: 1763656354:0;sudo apt install abiword
+: 1763656354:0;abiword
+: 1763656354:0;nvim
+: 1763656354:0;dropbox
+: 1763656354:0;cd Dropbox
+: 1763656354:0;vim Simon
+: 1763656354:0;Simon/Linux
+: 1763656354:0;rclone
+: 1763656354:0;sudo apt install libfuse2
+: 1763656354:0;wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
+: 1763656354:0;wget -qO - https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /usr/share/keyrings/obs-onedrive.gpg > /dev/null
+: 1763656354:0;[200~echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-onedrive.gpg] https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/xUbuntu_22.04/ ./" | sudo tee /etc/apt/sources.list.d/onedrive.list~
+: 1763656354:0;echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-onedrive.gpg] https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/xUbuntu_22.04/ ./" | sudo tee /etc/apt/sources.list.d/onedrive.list
+: 1763656354:0;sudo apt remove onedrive
+: 1763656354:0;lsb_release -a
+: 1763656354:0;wget -qO - https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/xUbuntu_25.10/Release.key | gpg --dearmor | sudo tee /usr/share/keyrings/obs-onedrive.gpg > /dev/null
+: 1763656354:0;echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/obs-onedrive.gpg] https://download.opensuse.org/repositories/home:/npreining:/debian-ubuntu-onedrive/xUbuntu_25.10/ ./" | sudo tee /etc/apt/sources.list.d/onedrive.list
+: 1763656354:0;sudo apt install --no-install-recommends --no-install-suggests onedriv
+: 1763656354:0;sudo apt install --no-install-recommends --no-install-suggests onedrive
+: 1763656354:0;onedrive
+: 1763656354:0;onedrive --help
+: 1763656354:0;/home/sitagg/.config/onedrive/config
+: 1763656354:0;cd .config
+: 1763656354:0;cd onedrive
+: 1763656354:0;nvim config
+: 1763656354:0;ls .config/onedrive
+: 1763656354:0;onedrive --display-config
+: 1763656354:0;onedrive --display-config|grep display
+: 1763656354:0;onesdrive -s --dry-run
+: 1763656354:0;onedrive -s --dry-run
+: 1763656354:0;onedrive --resync --dry-run
+: 1763656354:0;onedrive --sync --resync --dry-run
+: 1763656354:0;nvim .config/onedrive/config
+: 1763656354:0;sudo apt install qt
+: 1763656354:0;sudo apt install qt5
+: 1763656354:0;sudo apt update\
+sudo apt install qtbase5-dev qt5-qmake qtbase5-dev-tools qtchooser   
+: 1763656354:0;git clone https://github.com/DanielBorgesOliveira/onedrive_tray.git\
+\
+cd onedrive_tray\
+\
+mkdir build\
+\
+cd build\
+\
+qmake ../systray.pro\
+\
+make
+: 1763656354:0;ls 
+: 1763656354:0;cd..
+: 1763656354:0;..
+: 1763656354:0;pwd
+: 1763656354:0;git
+: 1763656354:0;sudo apt install git
+: 1763656354:0;rm -rf build
+: 1763656354:0;git clone https://github.com/DanielBorgesOliveira/onedrive_tray.git
+: 1763656354:0;cd onedrive_tray
+: 1763656354:0;mkdir build
+: 1763656354:0;ls ../systray.pro
+: 1763656354:0;which qmake
+: 1763656354:0;qmake
+: 1763656354:0;sudo apt install qt5-default
+: 1763656354:0;sudo apt install build-essential
+: 1763656354:0;cd build
+: 1763656354:0;qmake ../systray.pro
+: 1763656354:0;make
+: 1763656354:0;sudo cp onedrive_tray /usr/local/bin/onedrive_tray
+: 1763656354:0;sudo make install
+: 1763656354:0;systemctl enable --user onedrive_tray.service
+: 1763656354:0;onedrive_tray --onedrive-path /home/sitagg/OneDrive
+: 1763656354:0;mv onedrive_tray onedrive_tray.old
+: 1763656354:0;systemctl --user enable onedrive
+: 1763656354:0;systemctl --user start onedrive
+: 1763656354:0;systemctl --user status onedrive
+: 1763656354:0;onedrive -m --resync
+: 1763656354:0;logoff
+: 1763656354:0;logouit
+: 1763656354:0;logout
+: 1763656354:0;systemctl status |grep onedrive.service
+: 1763656354:0;kill 4236
+: 1763656354:0;cl
+: 1763656354:0;systemctl stop onedrive
+: 1763656354:0;systemctl stop onedrive.service
+: 1763656354:0;systemctl stop onedriver
+: 1763656354:0;sudo systemctl stop onedrive@sitagg
+: 1763656354:0;systemctl cat onedrive
+: 1763656354:0;sudo systemctl cat onedrive
+: 1763656354:0;sudo systemctl cat onedrive_tray
+: 1763656354:0;ls /etc/services
+: 1763656354:0;cat /etc/services
+: 1763656354:0;ls /etc
+: 1763656354:0;ls /etc/systemd
+: 1763656354:0;cat /etc/systemd/system\\
+
+: 1763656354:0;cat /etc/systemd/system.conf
+: 1763656354:0;ls /etc/systemd/system
+: 1763656354:0;ls /usr/local/lib/systemd/system
+: 1763656354:0;ls /usr/local/lib/
+: 1763656354:0;sudo apt install fzf
+: 1763656354:0;fzf onedrive.service
+: 1763656354:0;fzf -h
+: 1763656354:0;locate onedrive
+: 1763656354:0;find -name onedrive* -depth
+: 1763656354:0;find -depth -name onedrive* 
+: 1763656354:0;find / -depth -name onedrive* 
+: 1763656354:0;sudo find / -depth -name onedrive* 
+: 1763656354:0;sudo find / -depth -name *onedrive* 
+: 1763656354:0;sudo ps aufxw | grep onedrive
+: 1763656354:0;systemctl disable onedrive_tray
+: 1763656354:0;systemctl status onedrive
+: 1763656354:0;systemctl status |grep onedrive
+: 1763656354:0;systemctl disable onedrive_tray.service
+: 1763656354:0;journalctl --unit=onedrive@<username> -f
+: 1763656354:0;journalctl --unit=onedrive@sitagg -f
+: 1763656354:0;sudo systemctl stop onedrive@sitagg.service
+: 1763656354:0;sudo systemctl disable onedrive@sitagg.service
+: 1763656354:0;systemctl status| grep onedrive
+: 1763656354:0;systemctl show --property=UnitPath
+: 1763656354:0;ls /run/systemd
+: 1763656354:0;ls /run/systemd/system
+: 1763656354:0;systemctl show onedrive.service
+: 1763656354:0;systemctl show onedrive.service|grep path
+: 1763656354:0;systemctl show onedrive.service|grep Path
+: 1763656354:0;systemd-analyze --system unit-paths
+: 1763656354:0;systemd-analyse
+: 1763656354:0;systemd-analyze --sitagg unit-paths
+: 1763656354:0;systemd-analyze --user unit-paths
+: 1763656354:0;cd .config/systemd
+: 1763656354:0;cd user
+: 1763656354:0;cat default.target.wants
+: 1763656354:0;cd default.target.wants
+: 1763656354:0;less onedrive.service
+: 1763656354:0;nvim onedrive.service
+: 1763656354:0;sudo nvim onedrive.service
+: 1763656354:0;nvim .config/systemd/user/default.target.wants/onedrive.service
+: 1763656354:0;sudo apt update 
+: 1763656354:0;dpkg --list|grep 1password
+: 1763656354:0;sudo apt install 1password
+: 1763656354:0;curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/keyrings/1password-archive-keyring.gpg\
+
+: 1763656354:0;echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/1password-archive-keyring.gpg] https://downloads.1password.com/linux/debian/amd64 stable main' | sudo tee /etc/apt/sources.list.d/1password.list
+: 1763656354:0;sudo mkdir -p /etc/debsig/policies/AC2D62742012EA22/\
+	curl -sS https://downloads.1password.com/linux/debian/debsig/1password.pol | sudo tee /etc/debsig/policies/AC2D62742012EA22/1password.pol\
+	sudo mkdir -p /usr/share/debsig/keyrings/AC2D62742012EA22\
+	curl -sS https://downloads.1password.com/linux/keys/1password.asc | sudo gpg --dearmor --output /usr/share/debsig/keyrings/AC2D62742012EA22/debsig.gpg\
+
+: 1763656354:0;sudo apt update && sudo apt install 1password\
+
+: 1763656354:0;systemctl disable --user onedrive_tray.service
+: 1763656354:0;reboot
+: 1763656354:0;sudo apt install gimp
+: 1763656354:0;htop
+: 1763656354:0;sudo apt upgrade
+: 1763656354:0;sudo apt install calibre
+: 1763656354:0;sudo apt remove calibre
+: 1763656354:0;dpkg list
+: 1763656354:0;dpkg --list
+: 1763656354:0;dpkg --list|grep abi
+: 1763656354:0;sudo apt remove abiword
+: 1763656354:0;cd .config/onedrive
+: 1763656354:0;nvim sync_list
+: 1763656354:0;sudo apt install remmina
+: 1763656354:0;ssh sipi
+: 1763656354:0;sudo apt update && sudo apt upgrade
+: 1763656354:0;wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \\
+    | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/linux-surface.gpg
+: 1763656354:0;echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \\
+	| sudo tee /etc/apt/sources.list.d/linux-surface.list
+: 1763656354:0;sudo apt update
+: 1763656354:0;sudo apt install linux-image-surface linux-headers-surface libwacom-surface iptsd
+: 1763656354:0;sudo update-grub
+: 1763656354:0;cat .joplin
+: 1763656354:0;ls .joplin
+: 1763656354:0;echo $SHELL
+: 1763656354:0;mate
+: 1763656354:0;free
+: 1763656354:0;uptime
+: 1763656354:0;iftop
+: 1763656354:0;nethogs
+: 1763656354:0;nc
+: 1763656354:0;tmux
+: 1763656354:0;w
+: 1763656354:0;last
+: 1763656354:0;uname -a
+: 1763656354:0;snap install chezmoi --classic
+: 1763656354:0;systemctl restart iptsd
+: 1763656354:0;systemctl start iptsd
+: 1763656354:0;systemctl restart iptsd.slice
+: 1763656354:0;systemctl daemon-reload
+: 1763656354:0;systemctl status|grep iptsd
+: 1763656354:0;systemctl restart iptsd@dev-hidraw2.service
+: 1763656354:0;cd snap
+: 1763656354:0;cd Dropbox/Simon/Linux/scripts
+: 1763656354:0;nvim retouch.sh
+: 1763656354:0;chmod +x retouch.sh
+: 1763656354:0;./retouch.sh
+: 1763656354:0;cd ..
+: 1763656354:0;cp scripts/ ~/
+: 1763656354:0;cp -r scripts/ ~/
+: 1763656354:0;cd scripts
+: 1763656354:0;chezmoi init
+: 1763656354:0;cd
+: 1763656354:0;chezmoi add scripts
+: 1763656354:0;ls
+: 1763656354:0;Dropbox
+: 1763656354:0;nvim .zshrc
+: 1763656354:0;visudo
+: 1763656354:0;~/scripts/retouch.sh
+: 1763656354:0;sudo apt install dconf-editor
+: 1763656354:0;dconf-editor
+: 1763656354:0;sudo sudoers
+: 1763656354:0;cat scripts/retouch.sh
+: 1763656354:0;sudo visudo
+: 1763656354:0;resume
+: 1763656354:0;fg
+: 1763656354:0;clear
+: 1763656354:0;c
+: 1763656354:0;ls -al
+: 1763656354:0;sudo apt install ohmyzsh
+: 1763656354:0;sudo apt install oh-my-zsh
+: 1763656354:0;zsh --version
+: 1763656354:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1763656354:0;nano .zshrc
+: 1763656354:0;alias
+: 1763656354:0;cd .oh-my-zsh
+: 1763656354:0;l
+: 1763656354:0;cat .prettierrc
+: 1763656354:0;les 
+: 1763656354:0;less README.md
+: 1763656354:0;sudo apt-get install fonts-powerline
+: 1763656354:0;exit
+: 1763656309:0;ls -al
+: 1763656316:0;l
+: 1763656333:0;nano .zshrc
+: 1763656354:0;exit
+: 1763656364:0;l
+: 1763711624:0;sudo apt install yazi
+: 1763711665:0;snap install yazi
+: 1763711681:0;sudo snap install yazi
+: 1763711714:0;sudo snap install yazi --classic
+: 1763711737:0;yazi
+: 1763711854:0;exit
+: 1763745442:0;htop
+: 1763745595:0;exit
+: 1763816057:0;cd Downloads
+: 1763816059:0;ls
+: 1763816068:0;sudo apt install ./koreader-2025.10-amd64.deb
+: 1763823218:0;c
+: 1763823228:0;nano ./zshrc
+: 1763823235:0;cd
+: 1763823237:0;nano ./zshrc
+: 1763823251:0;nano .zshrc
+: 1763823279:0;mate
+: 1763823285:0;sudo apt install mate
+: 1763823309:0;sudo apt autoremove
+: 1763823362:0;nano .zshrc
+: 1763823478:0;exit
+: 1763823484:0;lksdjnhf
+: 1763823485:0;asng;er
+: 1763823486:0;]g][adsfm;lgjmadf
+: 1763823487:0;c
+: 1763823492:0;upd
+: 1763823504:0;upg
+: 1763823711:0;cd Do
+: 1763823715:0;cd Documents
+: 1763823733:0;cd ../backups
+: 1763823736:0;cd
+: 1763823737:0;ls
+: 1763823762:0;ssh sipi
+: 1763823850:0;Downloads
+: 1763823853:0;cd
+: 1763823866:0;ls -al
+: 1763828493:0;exit
+: 1764069837:0;tailscale
+: 1764069847:0;tailscale status
+: 1764069936:0;ping 194.168.4.100
+: 1764069944:0;ping 194.168.8.100
+: 1764069972:0;ssh sipi
+: 1764172795:0;ls
+: 1764172799:0;ls scripts
+: 1764172811:0;scripts/retouch.sh
+: 1764231681:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1764231714:0;ls -al
+: 1764231730:0;ls -al .oh-my-zsh
+: 1764231782:0;Documents
+: 1764231784:0;cd
+: 1764231839:0;ls -al .oh-my-zsh/.git
+: 1764231858:0;git --help
+: 1764231869:0;git status
+: 1764231884:0;cd .oh-my-zsh
+: 1764231888:0;git status
+: 1764232502:0;cd
+: 1764232505:0;cd scripts
+: 1764232506:0;ls
+: 1764232513:0;./retouch.sh
+: 1764232529:0;systemctl daemon-reload
+: 1764253995:0;cd scripts
+: 1764253996:0;l
+: 1764254003:0;cat re
+: 1764254013:0;cat retouch.sh
+: 1764254028:0;nano retouch.sh
+: 1764254065:0;sudo visudo
+: 1764254125:0;which systemctl
+: 1764254168:0;./retouch.sh
+: 1764254193:0;sudo systemctl restart iptsd@dev-hidraw2.service
+: 1764254234:0;sudo systemctl daemon-reload
+: 1764254479:0;uname -a
+: 1764254493:0;exit
+: 1764254662:0;uname -a
+: 1764256226:0;systemctl status |grep iptsd
+: 1764256281:0;cat scripts/retouch.sh
+: 1764256303:0;nano cat scripts/retouch.sh
+: 1764256317:0;nano scripts/retouch.sh
+: 1764262107:0;locale
+: 1764262171:0;locale -a
+: 1764262190:0;nano .zshrc
+: 1764262380:0;locale
+: 1764262384:0;c
+: 1764262385:0;l
+: 1764262547:0;less .bashrc
+: 1764262629:0;echo $PATH
+: 1764262659:0;c
+: 1764263272:0;nano .zshrc
+: 1764263391:0;chezmoi ssh --help
+: 1764265231:0;nano .zshrc
+: 1764265263:0;nano .
+: 1764265270:0;nvim .
+: 1764265295:0;ranger
+: 1764265300:0;yazi
+: 1764355305:0;tailscale on
+: 1764355311:0;tailscale
+: 1764355315:0;tailscale up
+: 1764355321:0;sudo tailscale up
+: 1764358231:0;sudo apt install pygments
+: 1764358296:0;sudo apt install python-pygments
+: 1764358312:0;sudo apt install python3-pygments
+: 1764358502:0;yazi
+: 1764358574:0;yazi --help
+: 1764359670:0;yazi
+: 1764359928:0;ya
+: 1764360156:0;cd .config/yazi
+: 1764360165:0;ls .config
+: 1764360185:0;ls -al
+: 1764360195:0;ls .config
+: 1764360202:0;l .config
+: 1764360380:0;nano .config/yazi.toml
+: 1764360414:0;yazi
+: 1764361004:0;cd .config
+: 1764361008:0;mkdir yazi
+: 1764361019:0;mv yazi.toml yazi
+: 1764361024:0;yazi
+: 1764361677:0;cd
+: 1764361683:0;kitten themes
+: 1764362760:0;sudo apt install spotify
+: 1764424310:0;sudo rmmod iptsd
+: 1764424323:0;sudo rmmod ipts
+: 1764424340:0;sudo modprobe ipts
+: 1764424372:0;nano scripts/retouch.sh
+: 1764424421:0;exit
+: 1764439619:0;scripts/retouch.sh
+: 1764445416:0;ssh sipi
+: 1764446512:0;ssh -X sipi
+: 1764447710:0;sudo nano /etc/ssh/sshd_config
+: 1764447753:0;cat /var/run/sshd.pid | xargs kill -1
+: 1764447762:0;sudo cat /var/run/sshd.pid | xargs kill -1
+: 1764447775:0;systemctl restart sshd
+: 1764447812:0;which xauth
+: 1764448105:0;ssh sipi
+: 1764448145:0;calibre
+: 1764448163:0;exit
+: 1764448189:0;ssh -X sipi
+: 1764448214:0;exit
+: 1764511115:0;scripts/retouch.sh
+: 1764511128:0;sudo sudoers
+: 1764511139:0;sudo visudo
+: 1764511177:0;cat scripts/retouch.sh
+: 1764511198:0;sudo visudo
+: 1764588540:0;cd Dropbox/Simon/
+: 1764588541:0;ls
+: 1764588547:0;cd Ebooks
+: 1764588549:0;ls
+: 1764588554:0;cd Books
+: 1764588556:0;ls
+: 1764588562:0;ls *.prc
+: 1764588573:0;ls *.epub
+: 1764588603:0;ls *.epub|wc -l
+: 1764588610:0;cd ..
+: 1764588610:0;ls
+: 1764588616:0;yazi
+: 1764603292:0;cd
+: 1764603300:0;scripts/retouch.sh
+: 1764603322:0;exit
+: 1764603628:0;cd scripts
+: 1764603629:0;ls
+: 1764603634:0;sudo ./retouch.sh
+: 1764603656:0;sudo /home/sitagg/scripts/retouch.sh
+: 1764603805:0;sudo visudo
+: 1764603878:0;sudo /home/sitagg/scripts/retouch.sh
+: 1764603898:0;./retouch.sh
+: 1764603909:0;exit
+: 1764603923:0;scripts/retouch.sh
+: 1764603936:0;sudo scripts/retouch.sh
+: 1764603972:0;exit
+: 1764604017:0;nano scripts/retouch.sh
+: 1764604045:0;scripts/retouch.sh
+: 1764604061:0;sudo scripts/retouch.sh
+: 1764604156:0;sudo /home/sitagg/scripts/retouch.sh
+: 1764604181:0;sudo visudo
+: 1764769105:0;sudo scripts/retouch.sh
+: 1764842526:0;sudo visudo
+: 1764842572:0;exit
+: 1764842586:0;sudo scripts/retouch.sh
+: 1764842599:0;omz update
+: 1764842628:0;c
+: 1764842970:0;sudo nano /etc/ssh/ssh_config
+: 1764843098:0;nano .ssh/ssh_config
+: 1764843118:0;nano .ssh/config
+: 1764845164:0;fastfetch
+: 1764845174:0;sudo apt install fastfetch
+: 1764845186:0;fastfetch
+: 1764845220:0;l
+: 1764845234:0;scripts/retouch.sh
+: 1764845243:0;sudo scripts/retouch.sh
+: 1764847231:0;cd .local/share/gnome-shell/extensions/tactile@lundal.io/schemas
+: 1764847235:0;l
+: 1764847259:0;scp *.compiled sipi:~/
+: 1764847264:0;exit
+: 1764859092:0;cmatrix
+: 1764859100:0;sudo apt install cmatrix
+: 1764859118:0;ip a
+: 1764859145:0;ping google.com
+: 1764859173:0;exit
+: 1764859399:0;sudo apt install cmatrix
+: 1764859413:0;cmatrix
+: 1764859475:0;kitten themes
+: 1764859521:0;cmatrix
+: 1764859539:0;cmatrix --help
+: 1764859583:0;cmatrix -C green
+: 1764859609:0;cmatrix -C green -b
+: 1764859625:0;cmatrix -b -C green
+: 1764859634:0;cmatrix -b
+: 1764859707:0;cmatrix -C --help
+: 1764859717:0;cmatrix -C green
+: 1764859727:0;cmatrix -C cyan
+: 1764859740:0;cmatrix -C red
+: 1764859745:0;cmatrix -C green
+: 1764859772:0;cmatrix -bc -C green
+: 1764859787:0;cmatrix -bf -C green
+: 1764859798:0;cmatrix -b -C green
+: 1764859809:0;cmatrix --help
+: 1764859850:0;cmatrix -blo
+: 1764859869:0;setfont matrix
+: 1764859880:0;cmatrix -bo
+: 1764859901:0;cmatrix -a
+: 1764870667:0;kitten themes
+: 1764879174:0;cmatrix
+: 1764879206:0;exit
+: 1764922832:0;kitten show-key -m kitty
+: 1765012850:0;chezmoi status
+: 1765012890:0;chezmoi add .config
+: 1765012900:0;chezmoi status
+: 1765012995:0;ls .config
+: 1765013011:0;chezmoi add .config/kitty
+: 1765013014:0;chezmoi status
+: 1765013025:0;chezmoi add .zshrc
+: 1765013035:0;chezmoi add .bashrc
+: 1765013044:0;l
+: 1765013063:0;chezmoi add .oh-my-zsh
+: 1765013129:0;chezmoi add .zsh*
+: 1765195017:0;cm status
+: 1765195070:0;cm edit --apply $ZSH_CUSTOM/aliases.zsh
+: 1765195122:0;source .zshrc
+: 1765195132:0;cme .bashrc
+: 1765195156:0;ls -Cf
+: 1765195165:0;ls -CF
+: 1765195170:0;ll
+: 1765195171:0;l
+: 1765195176:0;la
+: 1765195179:0;c
+: 1765268472:0;cm cd
+: 1765268479:0;git push
+: 1765268512:0;git status
+: 1765268554:0;l
+: 1765268675:0;git remote -v
+: 1765268709:0;git push -u -f origin main
+: 1765268751:0;cm cd
+: 1765268763:0;du -sh
+: 1765268999:0;l
+: 1765269070:0;git push -u -f origin main
+: 1765269183:0;git diff
+: 1765269252:0;git commit --amend
+: 1765269352:0;git log
+: 1765269374:0;l
+: 1765269378:0;l .git
+: 1765269440:0;git status
+: 1765269472:0;rm -rf .git
+: 1765269483:0;git init
+: 1765269514:0;git branch -m main
+: 1765269543:0;git config --global user.name "Simon T"
+: 1765269569:0;git config --global user.email "sitagg@gmail.com"
+: 1765269636:0;cm init
+: 1765269643:0;l
+: 1765269648:0;cd
+: 1765269649:0;exit
+: 1765269664:0;cm add .zsh*

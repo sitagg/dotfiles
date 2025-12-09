@@ -1,0 +1,65 @@
+sudo apt update
+sudo apt install curl gpg apt-transport-https
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://packagecloud.io/filips/FirefoxPWA/gpgkey | gpg --dearmor | sudo tee /etc/apt/keyrings/firefoxpwa.gpg > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/firefoxpwa.gpg] https://packagecloud.io/filips/FirefoxPWA/any any main" | sudo tee /etc/apt/sources.list.d/firefoxpwa.list > /dev/null
+sudo apt update
+sudo apt install firefoxpwa
+sudo apt install nemo
+sudo apt install zsh
+sudo apt install kitty
+kitten themes
+exit
+ls /etc/ssh
+zsh
+exit
+which rclone
+sudo apt install rclone
+sudo apt install ddcutil
+sudo usermod -a -G i2c $USER
+ddcutil --display 1 capabilities
+which zsh
+zsh
+ls -al
+autoload -U zsh-newuser-install
+sudo autoload -U zsh-newuser-install
+zsh
+sudo apt purge zsh
+sudop apt install zsh
+sudo apt install zsh
+zsh
+ssh-keygen
+ssh sipi
+sudo apt install tailscale
+sudo apt update && sudo apt upgrade
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/questing.tailscale-keyring.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+sudo apt-get update
+sudo apt-get install tailscale
+sudo tailscale up
+htop
+sudo apt install htop\
+htop
+ssh sipi
+ssh kalipi
+ssh-copy-id sipi
+ssh sipi
+ssh-copy-id kalipi
+ssh kalipi
+which openssh
+sudo apt install openssh
+sudo apt install openssh-server
+systemctl enable ssh
+ssh sipi
+exit
+sudo nano /etc/ssh/sshd_config
+chsh sitagg
+exit
+nvim
+exit
+echo $SHELL
+nvim .config/kitty/kitty.conf
+exit
+echo $SHELL
+cat /etc/shells
+which zsh

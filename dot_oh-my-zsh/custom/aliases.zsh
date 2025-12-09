@@ -1,0 +1,7 @@
+alias c="clear"
+alias ud="sudo apt update"
+alias ug="sudo apt upgrade"
+alias zconf="nvim ~/.zshrc"
+alias zalias="nvim $ZSH_CUSTOM/aliases.zsh"
+alias cm="chezmoi"
+alias cme="chezmoi edit --apply "
